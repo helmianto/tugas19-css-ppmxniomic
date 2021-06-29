@@ -1,0 +1,57 @@
+.box {
+    width: 200px;
+    padding: 30px;
+    text-align: center;
+}
+
+.box1 {
+    background-color: red;
+    order: 1;
+}
+.box2 {
+    background-color: blue;
+    order: 3;
+    color: white;
+}
+.box3 {
+    background-color: green;
+    order: 3;
+    color: white;
+}
+.box4 {
+    background-color: orange;
+    order: 3;
+}
+.box5 {
+    background-color: purple;
+    order: 4;
+    color: white;
+}
+.box6 {
+    background-color: aqua;
+    order: -1;
+}
+.box7 {
+    background-color: aquamarine;
+    order: 2;
+}
+.box8 {
+    background-color: antiquewhite;
+    order: 0;    
+}
+.box9 {
+    background-color: azure;
+    order: 0;    
+}
+.box10 {
+    background-color: antiquewhite;
+    order: 0;    
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
